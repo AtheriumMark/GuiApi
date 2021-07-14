@@ -1,5 +1,5 @@
 return {
-  Dark = {
+	Dark = {
 		Background0 = Color3.fromRGB(60, 60, 70);
 		Background1 = Color3.fromRGB(41, 41, 51);
 		Background2 = Color3.fromRGB(26, 26, 33);
