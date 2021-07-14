@@ -67,4 +67,4 @@ pcall(function()
 	end
 end)
 
-return {"Nigga"} --{Preferences = Preferences, Theme = CurrentTheme}
+return {Preferences = Preferences, Theme = CurrentTheme}
