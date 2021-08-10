@@ -43,7 +43,7 @@ function Library.Notification(Title, Text, GUIParent)
 	
 	local Frame = Instance.new("Frame", GUIParent)
 	Frame.BackgroundColor3 = CurrentTheme.Background0
-	Frame.Position = UDim2.fromScale(1, 1.17)
+	Frame.Position = UDim2.fromScale(0.97, 1.17)
 	Frame.Size = UDim2.fromScale(0.2, 0.1)
 	Frame.AnchorPoint = Vector2.new(1, 1)
 	Frame.BackgroundTransparency = Preferences.NotificationTransparency
