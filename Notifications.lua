@@ -16,7 +16,7 @@ local CurrentTheme = {
 	Text4 = Color3.fromRGB(0, 0, 0);
 }
 pcall(function ()
-	local Vars = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtheriumMark/hax/main/Configuration.lua"))()
+	local Vars = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtheriumMark/Rui/main/Configuration.lua"))()
 	Preferences = Vars.Preferences
 	CurrentTheme = Vars.Theme
 end)
