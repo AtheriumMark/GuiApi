@@ -36,7 +36,7 @@ local Themes = {
 
 if IsSynapse then
     pcall(function() 
-	    Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtheriumMark/hax/main/themes.lua", true))()
+	    Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtheriumMark/Rui/main/Themes.lua", true))()
     end)
     
 	if isfile("config.ather") then
