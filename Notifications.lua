@@ -33,7 +33,7 @@ function Library.Notification(Title, Text, GUIParent)
 
 	if GUIParent == nil then
 		if ScreenGui == nil then
-			ScreenGui = Instance.new("ScreenGui", GUIParent)
+			ScreenGui = Instance.new("ScreenGui", UIParent)
 			ScreenGui.ResetOnSpawn = false
 			ScreenGui.IgnoreGuiInset = true
 			ScreenGui.Name = "Parent"
