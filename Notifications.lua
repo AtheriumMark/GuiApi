@@ -79,7 +79,4 @@ function Library.Notification(Title, Text, GUIParent)
 	Frame:TweenPosition(UDim2.fromScale(0.97, 1.17), Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, 0.5, false, function() Frame:Destroy() end)
 end
 
--- Test, uncomment next line for testing.
--- Library.Notification("kill me", "kill me")
-
 return Library
