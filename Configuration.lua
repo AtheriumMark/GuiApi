@@ -5,6 +5,7 @@ local Preferences = {
 	NotificationTransparency = 0.1;
 	NotificationTime = 3;
 	Theme = "Red";
+	Debug = false;
 }
 
 local CurrentTheme = {
