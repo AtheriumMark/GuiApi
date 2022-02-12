@@ -270,21 +270,4 @@ function Lib.CreateListNode(TitleText)
 		end,
 	}
 end
-
-local Node = Lib.CreateListNode("Amoguis")
-
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
-Node.AddToggleChild("sussy???//!/", function(a) print(a) end, false)
+return Lib
